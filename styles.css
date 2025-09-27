@@ -45,6 +45,27 @@ ul {
     display: flex;
     gap: 24px;
 }
-.left-side {
-    
+
+.firstcontent {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #1F2937;
+}
+.firstleftside{
+    width: 40%;
+    height: 400px;
+}
+.firstrightside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 400px;
+}
+.firstherotext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-family: Roboto;
 }
