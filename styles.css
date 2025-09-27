@@ -27,9 +27,9 @@ quote text
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+ *{
     outline: 2px solid red;
-}
+} 
 
 .header {
     font-family: Roboto;
@@ -39,6 +39,7 @@ quote text
     width: 100%;
     height: 100px;
     justify-content: space-around;
+    align-items: center;
 }
 ul {
     
@@ -53,8 +54,12 @@ ul {
    background-color: #1F2937;
 }
 .firstleftside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
     width: 40%;
     height: 400px;
+    
 }
 .firstrightside {
     display: flex;
@@ -62,10 +67,30 @@ ul {
     align-items: center;
     width: 60%;
     height: 400px;
+    
 }
 .firstherotext{
+    font: Roboto;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    font-family: Roboto;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    
+}
+.firstherosecondarytext {
+    font: Roboto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.firstcontentbutton {
+    flex-grow: 0;
+    width: 80px;
+    height: 30px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
 }
