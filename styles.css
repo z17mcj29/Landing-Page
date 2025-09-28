@@ -27,9 +27,9 @@ quote text
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
- *{
+ /* *{
     outline: 2px solid red;
-} 
+}  */
 
 .header {
     font-family: Roboto;
@@ -130,4 +130,41 @@ ul {
     font-weight: 800;
     margin-left: 900px;
 
+}
+
+.fourthcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.calltoaction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    background-color: #3882F6;
+}
+.calltoactiontext {
+    color: #E5E7EB;
+    font-weight: 800;
+}
+.calltoactionbutton {
+    color: #F9FAF8;
+    border: 1px solid #E5E7EB;
+    background-color: #3882F6;
+    flex-grow: 0;
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 25px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    height: 50px;
+    
 }
