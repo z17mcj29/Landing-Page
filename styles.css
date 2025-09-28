@@ -94,3 +94,40 @@ ul {
     border: none;
     border-radius: 8px;
 }
+
+.secondcontentpictures {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.secondcontentinsert {
+    width: 200px;
+}
+.secondcontent{
+    text-align: center;
+    height: 400px;
+}
+
+.thirdcontent {
+    height: 400px;
+    background-color: #E5E7EB;
+}
+.thirdcontentquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    width: 800px;
+   padding-top: 80px;
+    margin-left: 400px;
+    margin-bottom: 0;
+    
+}
+.thirdcontentattributation {
+    color: #1F2937;
+    font-size: 28;
+    font-weight: 800;
+    margin-left: 900px;
+
+}
